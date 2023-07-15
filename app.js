@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const logger = require('morgan')
 const cors = require('cors')
-const PORT = 4568
+const PORT = 80
 const path = require('path')
 
 app.use(logger('dev'));
